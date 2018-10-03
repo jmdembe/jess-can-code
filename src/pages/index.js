@@ -5,7 +5,7 @@ const IndexPage = () => (
   <div>
     <h1>Hi everybody!</h1>
     <p>Welcome to my new internet home! 😀</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <img src = "https://source.unsplash.com/random/400x200" alt = "" />
   </div>
 )
 
