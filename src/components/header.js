@@ -29,13 +29,13 @@ const Header = ({ siteTitle }) => (
     </div>
     <ul>
       <li>
-        <Link to="/about" style={{color: 'white',textDecoration: 'none'}}>About</Link>
+        <Link to="/about" style={{color: 'white',textDecoration: 'none', display: 'inline'}}>About</Link>
       </li>
       <li>
-        <Link to="/blog" style={{color: 'white',textDecoration: 'none'}}>Blog</Link>
+        <Link to="/blog" style={{color: 'white',textDecoration: 'none', display: 'inline'}}>Blog</Link>
       </li>
       <li>
-        <Link to="/contact" style={{color: 'white', textDecoration:'none'}}>Contact</Link>
+        <Link to="/contact" style={{color: 'white', textDecoration:'none', display: 'inline'}}>Contact</Link>
       </li>
         
         
