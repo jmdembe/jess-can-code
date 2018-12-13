@@ -2,9 +2,9 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 const Footer = () => (
-    <div style={{background: '#5F4B8B', marginBottom: '1.45rem'}}>
+    <footer style={{background: '#5F4B8B', height: '150px', marginTop: '20px'}}>
 
-    </div>
+    </footer>
 )
 
 export default Footer
