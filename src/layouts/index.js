@@ -20,7 +20,7 @@ const Layout = ({ children, data }) => (
       {children()}
       
     </div>
-    <Footer/>
+    <Footer siteTitle ={data.site.siteMetadata.title} />
   </div>
   
 )
