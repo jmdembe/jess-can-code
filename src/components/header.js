@@ -37,6 +37,9 @@ const Header = ({ siteTitle }) => (
       <li>
         <Link to="/contact" style={{color: 'white', textDecoration:'none', display: 'inline'}}>Contact</Link>
       </li>
+      <li>
+        <Link to="/uses" style={{color: 'white', textDecoration:'none', display: 'inline'}}>Uses</Link>
+      </li>
         
         
       
