@@ -2,6 +2,6 @@ import React from "react"
 
 export default () => (
     <div style={{ color: `rebeccapurple` }}>
-        <h1>whoami</h1>
+        <h2>whoami</h2>
     </div>
 )
