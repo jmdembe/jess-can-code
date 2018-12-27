@@ -1,7 +1,7 @@
 import React from "react"
 
 export default () => (
-    <div style={{ color: `rebeccapurple` }}>
+    <div>
         <h2>whoami</h2>
     </div>
 )
