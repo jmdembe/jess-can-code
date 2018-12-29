@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
     style={{
       display: 'flex',
       flexDirection: 'column',
-      // alignItems: 'center',
+      alignItems: 'center',
       background: '#5F4B8B',
       marginBottom: '1.45rem',
     }}
@@ -34,18 +34,18 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <ul>
-      <li>
-        <Link to="/about" style={{color: 'white',textDecoration: 'none', display: 'inline'}}>About</Link>
+    <ul style={{width:'100%'}}>
+      <li style ={{display: 'inline-flex', flexDirection:'row'}}>
+        <Link to="/about" style={{color: 'white',textDecoration: 'none'}}>About</Link>
       </li>
-      <li>
-        <Link to="/blog" style={{color: 'white',textDecoration: 'none', display: 'inline'}}>Blog</Link>
+      <li style ={{display: 'inline-flex', flexDirection:'row'}}>
+        <Link to="/blog" style={{color: 'white',textDecoration: 'none'}}>Blog</Link>
       </li>
-      <li>
-        <Link to="/contact" style={{color: 'white', textDecoration:'none', display: 'inline'}}>Contact</Link>
+      <li style ={{display: 'inline-flex', flexDirection:'row'}}>
+        <Link to="/contact" style={{color: 'white', textDecoration:'none'}}>Contact</Link>
       </li>
-      <li>
-        <Link to="/uses" style={{color: 'white', textDecoration:'none', display: 'inline'}}>Uses</Link>
+      <li style ={{display: 'inline-flex', flexDirection:'row'}}>
+        <Link to="/uses" style={{color: 'white', textDecoration:'none'}}>Uses</Link>
       </li>
         
         

@@ -10,8 +10,14 @@ article,
 aside,
 details,
 figcaption,
-figure,
-footer,
+figure
+footer {
+  display:'flex';
+  flex-direction: 'row';
+  align-items: 'right';
+  background: '#5F4B8B';
+  margin-top: '60px';
+}
 header,
 main,
 menu,

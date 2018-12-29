@@ -12,6 +12,7 @@ module.exports = {
         name: 'pages',
       }
     },
+    'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     'gatsby-plugin-typography'
   ],
