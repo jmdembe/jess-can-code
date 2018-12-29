@@ -18,7 +18,7 @@ export default ({children, data}) => (
             
             <Layout>
                 <div>
-                    blog???
+                    {data.site.siteMetadata.title}
                 </div>
             </Layout>
         )

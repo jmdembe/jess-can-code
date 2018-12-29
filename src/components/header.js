@@ -1,9 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+// const TitleAndDescription = ({data})
+//   const title = data.site.siteMetadata.TitleAndDescription
+//   const description = data.site.siteMetadata.description
+
 const Header = ({ siteTitle }) => (
   <div
     style={{
+      display: 'flex',
+      flexDirection: 'column',
+      // alignItems: 'center',
       background: '#5F4B8B',
       marginBottom: '1.45rem',
     }}

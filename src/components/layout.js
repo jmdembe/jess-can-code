@@ -7,9 +7,10 @@ import Footer from '../components/footer'
 // import './index.scss'
 
 const Layout = ({ children, data }) => (
+  
   <div>
     <Helmet
-      title='Jessica Dembe'
+      title= 'Jessica Dembe' 
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
