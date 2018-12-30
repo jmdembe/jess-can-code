@@ -18,7 +18,7 @@ export default ({children, data}) => (
             
             <Layout>
                 <div>
-                    {data.site.siteMetadata.title}
+                    <p>{data.site.siteMetadata.description}</p>
                 </div>
             </Layout>
         )

@@ -6,7 +6,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import '../layouts/index.scss'
 
-const Layout = ({ children, data }) => (
+const Layout = ({ children }) => (
   
   <div>
     <Helmet
@@ -16,12 +16,12 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header siteTitle='Jessica' />
+    <Header siteTitle='Jessica Dembe' />
     <div style={{ margin: '0 auto', maxWidth: 960, padding: '0px 1.0875rem 1.45rem', paddingTop: 0,}}>
       {children}
       
     </div>
-    <Footer siteTitle ='Jessica' />
+    <Footer siteTitle ='Jessica Dembe' />
   </div>
   
 )
