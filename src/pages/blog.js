@@ -9,6 +9,7 @@ export default ({children, data}) => (
                 site {
                     siteMetadata {
                         title
+                        description
                     }
                 }
             }
