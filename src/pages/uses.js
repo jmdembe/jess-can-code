@@ -30,8 +30,7 @@ export default () => (
                 and a coding bootcamp. It still works. My new laptop is a lot faster with a lot more screen real estate. It is like night and day.</li>
                 <li>Work: I use a <a href="https://www.laptopmag.com/reviews/laptops/dell-latitude-e5470">
                     Dell Latitude E5470
-                </a> as my client also uses Windows machines. Also, I am a huge fan of separation of concerns when it comes to work and personal coding.
-                It works fine and it does the job, but I prefer Macs over PCs because there is less work setting up my environment, as it is on any *nix
+                </a> as my client also uses Windows machines.It works fine and it does the job, but I prefer Macs over PCs because there is less work setting up my environment, as it is on any *nix
                 machine. </li>
                 <li>Monitor: I do not have a formal desk setup, so I use a portable monitor to make a desk! The one I use is
                 this <a href="https://www.amazon.com/ASUS-MB169B-1920x1080-Portable-Monitor/dp/B013XFJKGI/ref=asc_df_B013XFJKGI/?tag=hyprod-20&linkCode=df0&hvadid=309751315916&hvpos=1o1&hvnetw=g&hvrand=2000356274849756023&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1018598&hvtargid=aud-466360936450:pla-383890328341&psc=1&tag=&ref=&adgrpid=67183599252&hvpone=&hvptwo=&hvadid=309751315916&hvpos=1o1&hvnetw=g&hvrand=2000356274849756023&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1018598&hvtargid=aud-466360936450:pla-383890328341">ASUS monitor</a>.</li>
@@ -40,10 +39,18 @@ export default () => (
             <ul>
                 <li>Text Editor: My go-to text editor is <a href="https://code.visualstudio.com/">VSCode</a>. I have tried Atom and it was too slow on any of my machines.
                 I also did not like all the setup required on Sublime.</li>
-                <ul>
-                    <li>Theme: I use <a href="https://github.com/minamarkham/yonce">Yonc&eacute;</a> for VSCode and for everything else on my personal laptop. On my work machine, I use the 
-                    <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme">Material Theme family</a>.</li>
-                </ul>
+                    <ul>
+                        <li>Theme: I use <a href="https://github.com/minamarkham/yonce">Yonc&eacute;</a> for VSCode and for everything else on my personal laptop. On my work machine, I use the 
+                        <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme">Material Theme family</a>.</li>                    </ul>
+                <li>Terminal: I use <a href="https://www.iterm2.com/">iTerm</a> and <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>. </li>
+                <li>My Favorite Tools
+                    <ul>
+                        <li>Slack: I am on several channels depending on the computer I am on. I think the only ones that I do not have
+                        on my personal machine are my work slack and a few library-specific channels.</li>
+                        <li>Momentum: This is a Chrome plugin that I see every time I open up a new tab or open the browser. I can use it to write down a daily goal
+                        as well as a to-do list.</li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </Layout>
