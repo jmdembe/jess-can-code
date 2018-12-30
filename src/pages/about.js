@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 export default () => (
     <Layout>
         <div>
-            <h2>whoami</h2>
+            <h2>My Work</h2>
         </div>
     </Layout>
     
