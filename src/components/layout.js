@@ -10,6 +10,7 @@ const Layout = ({ children }) => (
   
   <div>
     <Helmet
+      lang="en"
       title= 'Jessica Dembe' 
       meta={[
         { name: 'description', content: 'Sample' },
