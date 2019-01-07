@@ -13,6 +13,11 @@ const Footer = ({ siteTitle }) => (
                 <Link to="/" style={{color: 'white',textDecoration: 'none',}}> { siteTitle } </Link>
             </h4>
         </div>
+        <div>
+            <cite style={{color: '#FFFFFF', 'paddingLeft': '8px', 'clear': 'both', 'float': 'right'}}> &copy; 2019</cite>
+        </div>
+        
+        
     </footer>
 )
 
