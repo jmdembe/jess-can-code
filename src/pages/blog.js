@@ -20,6 +20,7 @@ export default ({children, data}) => (
             <Layout>
                 <div>
                     <p>{data.site.siteMetadata.description}</p>
+                    <p>Lorem ipsum sit dolor sit amet</p>
                 </div>
             </Layout>
         )
