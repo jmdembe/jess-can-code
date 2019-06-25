@@ -27,11 +27,7 @@ export default () => (
                 <li>Personal: I bought my <a href="https://www.techradar.com/reviews/macbook-pro">
                 15-inch MacBook Pro in November 2018</a> after my <a href ="https://everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i5-2.4-13-late-2011-unibody-thunderbolt-specs.html">13-inch MacBook Pro (late 2011)</a> became so slow that I could not handle coding on it anymore.
                 I am not sad about it, it took me through my last two years of college, my early professional career,
-                and a coding bootcamp. It still works. My new laptop is a lot faster with a lot more screen real estate. It is like night and day.</li>
-                <li>Work: I use a <a href="https://www.laptopmag.com/reviews/laptops/dell-latitude-e5470">
-                    Dell Latitude E5470
-                </a> as my client also uses Windows machines.It works fine and it does the job, but I prefer Macs over PCs because there is less work setting up my environment, as it is on any *nix
-                machine. </li>
+                and a coding bootcamp. It still works. My new laptop is a lot faster with a lot more screen real estate. It is like night and day!</li>
                 <li>Monitor: I do not have a formal desk setup, so I use a portable monitor to make a desk! The one I use is
                 this <a href="https://www.amazon.com/ASUS-MB169B-1920x1080-Portable-Monitor/dp/B013XFJKGI/ref=asc_df_B013XFJKGI/?tag=hyprod-20&linkCode=df0&hvadid=309751315916&hvpos=1o1&hvnetw=g&hvrand=2000356274849756023&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1018598&hvtargid=aud-466360936450:pla-383890328341&psc=1&tag=&ref=&adgrpid=67183599252&hvpone=&hvptwo=&hvadid=309751315916&hvpos=1o1&hvnetw=g&hvrand=2000356274849756023&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1018598&hvtargid=aud-466360936450:pla-383890328341">ASUS monitor</a>.</li>
             </ul>

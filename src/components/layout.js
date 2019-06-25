@@ -13,8 +13,8 @@ const Layout = ({ children }) => (
       lang="en"
       title= 'Jessica Dembe' 
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Jessica Dembe\'s blog and portfolio' },
+        { name: 'keywords', content: 'Jessica Dembe blog coding javascript' },
       ]}
     />
     <Header siteTitle='Jessica Dembe' />
