@@ -13,7 +13,13 @@ module.exports = {
         name: 'pages',
       }
     },
-    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Roboto`, `Nunito`], 
+        display: 'swap'
+      }
+    },
     `gatsby-plugin-styled-components`,
     'gatsby-transformer-remark',
     {

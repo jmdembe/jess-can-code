@@ -1,59 +1,66 @@
 import React from 'react'
 import Link from 'gatsby-link'
-
-// import './index.scss'
+import styled from "styled-components"
 
 // const TitleAndDescription = ({data})
 //   const title = data.site.siteMetadata.TitleAndDescription
 //   const description = data.site.siteMetadata.description
 
+const HeaderWrapper = styled.header`
+  align-items: center;
+  background-color: #5F4B8B;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.45rem;
+`
+
+const NameWrapper = styled.div`
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+`
+
+const NameHeading = styled.h1`
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+`
+
+const StyledLink = styled(props => <Link {...props} />)`
+  color: white;
+  text-decoration: none;
+`
+
+const MenuItem = styled.li`
+  display: inline-flex;
+  font-family: 'Nunito', Arial, sans-serif;
+  flex-direction: row;
+  margin: 0 25px;
+`
+
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      background: '#5F4B8B',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <HeaderWrapper className={`header-wrapper`}>
+    <NameWrapper>
+      <NameHeading>
+        <StyledLink to="/"> {siteTitle} </StyledLink>
+      </NameHeading>
+    </NameWrapper>
     <nav>
-      <ul style={{width:'100%'}}>
-        <li style ={{display: 'inline-flex', flexDirection:'row',margin: '0 25px'}}>
-          <Link to="/about" style={{color: 'white',textDecoration: 'none'}}>About</Link>
-        </li>
-        <li style ={{display: 'inline-flex', flexDirection:'row',margin: '0 25px'}}>
-          <Link to="/blog" style={{color: 'white',textDecoration: 'none'}}>Blog</Link>
-        </li>
-        <li style ={{display: 'inline-flex', flexDirection:'row',margin: '0 25px'}}>
-          <Link to="/contact" style={{color: 'white', textDecoration:'none'}}>Contact</Link>
-        </li>
-        <li style ={{display: 'inline-flex', flexDirection:'row',margin: '0 25px'}}>
-          <Link to="/uses" style={{color: 'white', textDecoration:'none'}}>Uses</Link>
-        </li>
+      <ul>
+        <MenuItem>
+          <StyledLink to="/about" >About</StyledLink>
+        </MenuItem>
+        <MenuItem>
+          <StyledLink to="/blog" >Blog</StyledLink>
+        </MenuItem>
+        <MenuItem>
+          <StyledLink to="/contact">Contact</StyledLink>
+        </MenuItem>
+        <MenuItem>
+          <StyledLink to="/uses">Uses</StyledLink>
+        </MenuItem>
       </ul>
     </nav>
-
-  </div>
+  </HeaderWrapper>
 )
 
 export default Header
