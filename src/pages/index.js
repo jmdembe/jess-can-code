@@ -19,14 +19,12 @@ const Paragraph = styled.p `
 
 const IndexPage = () => (
   <Layout>
-    <div>
         <HeaderTitle>Hi everybody!</HeaderTitle>
         <Paragraph>My name is Jessica Dembe <span role="img" aria-label="black hand wave">👋🏾</span></Paragraph>
         <Paragraph>I am a front-end developer based in the Washington, D.C. area.</Paragraph>
         <Paragraph>I like making creating web experiences with expertised in data visualization and accessibility.</Paragraph>
         <Paragraph>Here is a random picture as this site is still under construction!</Paragraph>
         <MyPhoto src = "https://source.unsplash.com/random/" alt = "A random stand-in image. This does not convey any meaning" />
-      </div>
   </Layout>
   
 )
