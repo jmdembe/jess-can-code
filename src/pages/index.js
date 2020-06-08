@@ -1,32 +1,35 @@
-import React from 'react'
+import React from "react"
+import { Link } from "gatsby"
+
 import Layout from "../components/layout"
-import styled from "styled-components"
+import SEO from "../components/seo"
+import Button from "../components/button"
 
-const HeaderTitle = styled.h2`
-  font-family: 'Roboto', sans-serif;
-  font-size: 44px;
-`
+class IndexPage extends React.Component {
+  render() {
+    const siteTitle = "Gatsby Starter Personal Website"
 
-const MyPhoto = styled.img`
-  height: 200px;
-  width: 400px;
-  border-radius: 1px solid black;
-`
+    return (
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO
+          title="Home"
+          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        />
+        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
+        <h1>
+          Hi everybody!{" "}
+          <span role="img" aria-label="wave emoji">
+            👋
+          </span>
+        </h1>
+        <p>Welcome to my re-made site and blog.</p>
 
-const Paragraph = styled.p `
-  font-family: 'Nunito', Arial, sans-serif;
-`
-
-const IndexPage = () => (
-  <Layout>
-        <HeaderTitle>Hi everybody!</HeaderTitle>
-        <Paragraph>My name is Jessica Dembe <span role="img" aria-label="black hand wave">👋🏾</span></Paragraph>
-        <Paragraph>I am a front-end developer based in the Washington, D.C. area.</Paragraph>
-        <Paragraph>I like making creating web experiences with expertised in data visualization and accessibility.</Paragraph>
-        <Paragraph>Here is a random picture as this site is still under construction!</Paragraph>
-        <MyPhoto src = "https://source.unsplash.com/random/" alt = "A random stand-in image. This does not convey any meaning" />
-  </Layout>
-  
-)
+        <Link to="/blog/">
+          <Button marginTop="35px">Go to Blog</Button>
+        </Link>
+      </Layout>
+    )
+  }
+}
 
 export default IndexPage
