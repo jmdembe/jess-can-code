@@ -21,7 +21,7 @@ function Bio() {
         return (
           <Container>
             <p>
-              Online notes straight from <strong>{author}</strong>
+              Online notes straight from the notebook of <strong>{author}</strong>
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter
