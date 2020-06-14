@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `Jess Can Code`,
     author: `Jessica Dembe`,
-    description: `My blog`,
+    description: `Jessica Dembe's blog and portfolio`,
     siteUrl: `https://jessicadembe.tech/`,
     social: {
       twitter: `jmdembe`,
@@ -98,6 +98,10 @@ module.exports = {
           },
           {
             family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+          {
+            family: `Roboto`,
             variants: [`400`, `700`]
           },
         ],

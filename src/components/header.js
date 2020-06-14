@@ -2,9 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from "styled-components"
 
-// const TitleAndDescription = ({data})
-//   const title = data.site.siteMetadata.TitleAndDescription
-//   const description = data.site.siteMetadata.description
 
 const HeaderWrapper = styled.header`
   align-items: center;
@@ -28,6 +25,7 @@ const NameHeading = styled.h1`
 const StyledLink = styled(props => <Link {...props} />)`
   color: white;
   text-decoration: none;
+  box-shadow: none;
 `
 
 const MenuItem = styled.li`
