@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import styled from "styled-components"
 
 import Header from '../components/header'
@@ -15,14 +14,6 @@ const Content = styled.div`
 const Layout = ({ children }) => (
   
   <div>
-    <Helmet
-      lang="en"
-      title= 'Jessica Dembe' 
-      meta={[
-        { name: 'description', content: 'Jessica Dembe\'s blog and portfolio' },
-        { name: 'keywords', content: 'Jessica Dembe blog coding javascript' },
-      ]}
-    />
     <Header siteTitle='Jessica Dembe' />
     <Content>
       {children}
